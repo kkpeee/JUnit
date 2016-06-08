@@ -3,7 +3,6 @@ package jp.co.junit4.sample;
 public class FizzBuzz {
 	static String getFizzBuzz(int i){
 		if(i % 3 == 0 && i % 5 == 0){
-			if(i == 0) return String.valueOf(0);
 			return "FizzBuzz";
 		}else if(i % 3 == 0){
 			return "Fizz";
